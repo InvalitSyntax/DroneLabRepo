@@ -1,3 +1,6 @@
+# DONE
+## файлы таргета, сама прошивка и настройка inav лежат в папке FINAL
+
 [iFlight Support Google Drive](https://drive.google.com/drive/u/0/folders/1r3MNTBNYSzGeRXQg45j4IJVoW1Xjk7Y0) со всем различным мануалом для Iflight, там и green hornet и всё остальное
 
 [Ветка с прошивками](https://github.com/iNavFlight/inav/issues/6711#issuecomment-892387900) на SUCCEX-E mini
@@ -11,3 +14,7 @@
 
 ![alt text](image.png)
 `~/inav/src/main/target`
+
+
+inav_default_alt_sensor = GPS
+Allowed values: GPS, BARO, GPS_ONLY, BARO_ONLY
