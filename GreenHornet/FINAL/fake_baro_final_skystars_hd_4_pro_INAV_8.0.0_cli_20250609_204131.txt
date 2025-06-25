@@ -1,7 +1,7 @@
 diff all
 
 # version
-# INAV/SKYSTARSF722HDPRO 8.0.0 Jan 21 2025 / 16:19:08 (ec2106af) 
+# INAV/SKYSTARSF722HDPRO 8.0.0 Jun 25 2025 / 17:04:38 (ec2106af) 
 # GCC-13.2.1 20231009
 
 # start the command batch
@@ -21,7 +21,6 @@ defaults noreboot
 # Fixed Wing Approach
 
 # features
-feature -AIRMODE
 feature PWM_OUTPUT_ENABLE
 
 # beeper
@@ -85,10 +84,10 @@ set dynamic_gyro_notch_q = 250
 set dynamic_gyro_notch_min_hz = 60
 set dynamic_gyro_notch_mode = 3D
 set setpoint_kalman_q = 200
-set gyro_zero_x = -5
-set gyro_zero_y = 4
-set gyro_zero_z = -49
-set ins_gravity_cmss =  881.868
+set gyro_zero_x = -1
+set gyro_zero_y = 9
+set gyro_zero_z = -41
+set ins_gravity_cmss =  830.351
 set acc_hardware = MPU6000
 set acczero_x = 56
 set acczero_y = 41
@@ -101,7 +100,7 @@ set opflow_hardware = MSP
 set opflow_scale =  9.457
 set align_mag = CW270FLIP
 set mag_hardware = NONE
-set baro_hardware = BMP280
+set baro_hardware = FAKE
 set serialrx_provider = CRSF
 set blackbox_rate_denom = 2
 set motor_pwm_protocol = DSHOT300
@@ -112,10 +111,9 @@ set applied_defaults = 6
 set airmode_type = THROTTLE_THRESHOLD
 set inav_allow_dead_reckoning = ON
 set inav_reset_altitude = EACH_ARM
-set inav_max_surface_altitude = 100
 set inav_default_alt_sensor = BARO
 set nav_mc_althold_throttle = MID_STICK
-set nav_max_altitude = 80
+set nav_max_altitude = 200
 set debug_mode = FLOW_RAW
 
 # control_profile

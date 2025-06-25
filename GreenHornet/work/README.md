@@ -10,6 +10,10 @@
 
 8.0.0 прошивка завелась на *SucceX-D F7 TwinG*
 
+[dji полётник naza-m, документация](https://www.dji.com/ru/downloads/products/naza-m#doc)
+
+[установка всего для подключения dji на винде - там же и про установку драйвера](https://walkingdroid.com.au/dji-driver-windows-10-naza-m/)
+
 # todo:
  на wsl попробовать пересобрать прошивку на мелкий полетник, все ножки попробовать отыскать в прошивке betaflight
 

@@ -5,15 +5,15 @@
 - [Папка IFLIGHTF7_SUCCEXE](IFLIGHTF7_SUCCEXE) — исходники для сборки прошивки для IFLIGHTF7_SUCCEXE.
 - [inav_8.0.0_IFLIGHTF7_SUCCEXE.hex](inav_8.0.0_IFLIGHTF7_SUCCEXE.hex) — собранная и проверенная прошивка.
 - [final_skystars_hd_4_pro_INAV_8.0.0_cli_20250609_204131.txt](final_skystars_hd_4_pro_INAV_8.0.0_cli_20250609_204131.txt), [final_INAV_8.0.0_cli_20250423_203116.txt](final_INAV_8.0.0_cli_20250423_203116.txt) — внутренние параметры для загрузки через CLI в INAV Configurator.
+- [dji.nazam](dji.nazam) - настройки для джи полётника(в красном хорнете стоит)
 
 ## INAV
 
 1. Скачайте [INAV Configurator](https://github.com/iNavFlight/inav-configurator/releases) версии 8.0.0 или выше для прошивки и настройки полетного контроллера.
 2. Для прошивки используйте вкладку `Firmware Flasher`:
-   - Для плат SKYSTARS используйте таргет `SKYSTARSF722HD4PRO`. Пример отображения в INAV Configurator:
-     
+   - Для плат SKYSTARS используйте таргет `SKYSTARSF722HD4PRO`. Что надо выбрать в INAV Configurator по шагам:
      ![alt text](image-1.png)
-   - Для плат SucceX-E загрузите прошивку локально из папки `FINAL`. Таргет выбирать не нужно — нажмите `Load Firmware [Local]` и выберите файл прошивки.
+   - Для плат SucceX-E загрузите прошивку локально из папки `FINAL`. Таргет выбирать не нужно — нажмите `Load Firmware [Local]` и выберите файл прошивки? затем прошивайте.
 
 ## Настройка полетника
 
@@ -21,7 +21,7 @@
 - Для SKYSTARS: `final_skystars_hd_4_pro_INAV_8.0.0_cli_20250609_204131.txt`
 - Для SucceX-E: `final_INAV_8.0.0_cli_20250423_203116.txt`
 
-Если необходимо ограничить максимальную высоту полета, выполните команду:
+Если необходимо ограничить максимальную высоту полета в автоомном режиме, выполните команду:
 `set nav_max_altitude = 80` (где `80` — максимальная высота в сантиметрах).
 После выполнения команд не забудьте сохранить изменения, выполнив `save`.
 
